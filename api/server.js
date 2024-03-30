@@ -23,6 +23,8 @@ app.post('/lists', (req, res) => {
     // adicionar aquivos   
     /// https://www.youtube.com/watch?v=P3R-8jj3S7U&list=PLIjdNHWULhPSZFDzQU6AnbVQNNo1NTRpd&index=4
     /// 15:44 / 34:25
+    // consertar a conexão entre o mongoDb e o express js server 
+    
 
 
     let title = req.body.title;

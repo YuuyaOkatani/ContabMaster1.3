@@ -9,5 +9,10 @@ export class HomeComponentComponent {
 
   nome: string = 'jooj'; 
   idade: number = 32; 
+  togglar = false;
+
+  sales(){
+    this.togglar = !this.togglar
+  }
 
 }

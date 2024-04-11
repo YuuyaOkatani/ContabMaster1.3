@@ -9,10 +9,13 @@
 <body>
     <div class="component">
         <div class="component2">
-            <button type="button" class="btn btn-primary btn-lg button">sales</button>
+            <button type="button" class="btn btn-primary btn-lg button" (click)="sales()">sales</button>
             <button type="button" class="btn btn-secondary btn-lg button2">estimates</button>
             <button type="button" class="btn btn-secondary btn-lg button3">something</button>
 
+
+        </div>
+        <div id="component3" *ngIf="{'transition1': togglar == true , 'transition2': togglar == false}">
 
         </div>
             

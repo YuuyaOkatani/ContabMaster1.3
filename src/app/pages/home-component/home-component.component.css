@@ -3,8 +3,6 @@
     bottom: 0;
     left: 0;
     right: 0;
-    width: 100%;
-    height: 100%;
     background-color: rgb(94, 90, 90);
     justify-content: center;
     display: flex;
@@ -20,15 +18,41 @@
     border-radius: 10px;
     justify-content: center;
     
-    display: inline-flex;
+    display: flex;
     position: absolute;
     background-color: rgb(82, 160, 228);
     
 }
 
-.component3{
+
+
+#component3{
+    height: 300px;
+    width: 800px;
+    background-color: rgb(6, 206, 6);
+    border-radius: 10px;
+    margin: 10px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    position: fixed;
+    top: 100%;
+
     
 }
+
+
+.transition1{
+    transform: translateY(-700px);
+    transition: 0.5s ease;
+}
+
+.transition2{
+    transform: translateY(700px);
+    transition: 0.5s ease;
+
+}
+
 .button{
     height: 50px;
     width: 350px;
